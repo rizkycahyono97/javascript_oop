@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+
+    function Employee(name) {
+        this.name = name;
+    }
+
+    function Manager(name) {
+        this.name = name;
+    }
+
+    // prototype inheritance yang salah, (seolah-olah replace Employee ke Manager)
+    // Manager.prototype = Employee.prototype;
+
+    // prototype inheritance yang benar
+    Manager.prototype = Object.create(Employee.prototype)
+
+    Employee.prototype.sayHello = function (name) {
+        console.info(`Hello ${name}, My name is Employee ${this.name}`);
+    }
+
+    Manager.prototype.sayHello = function (name) {
+        console.info(`Hello ${name}, My name is Manager ${this.name}`);
+    }
+
+    const employee = new Employee
+    employee.sayHello("Joko");
+
+    const manager = new Manager
+    manager.sayHello("Budi");
+
+    // cek
+    console.log(employee);
+    console.log(manager);
+
+
+</script>
+
+</body>
+</html>

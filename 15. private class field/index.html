@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+    class Counter {
+
+        // private field
+        #counter = 0;
+
+        increment() {
+            this.#counter++;
+        }
+
+        decrement() {
+            this.#counter--;
+        }
+
+        get() {
+            return this.#counter;
+        }
+    }
+
+    const eko = new Counter();
+    eko.increment();
+    eko.increment();
+    eko.increment();
+    eko.increment();
+    eko.increment();
+
+    // tidak akan bisa merubah #counter karena private field class 
+    eko.counter = 100;
+
+    console.info(eko)
+
+
+</script>
+
+</body>
+</html>

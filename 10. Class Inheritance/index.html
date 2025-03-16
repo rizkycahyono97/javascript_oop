@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+    class Employee {
+
+        // method
+        sayHello(name) {
+            console.info(`Hello ${name}, my name is ${this.name} im Employee`);
+        }
+    }
+
+    class Manager extends Employee {
+
+        // method
+        // sayHello(name) {
+        //     console.info(`Hello ${name}, my name is ${this.name} im employee`);
+        // }
+    }
+
+    // instance object
+    const budi = new Employee();
+    budi.name = "Budi";
+    budi.sayHello("Joko")
+
+    const eko = new Manager();
+    eko.name = "eko";
+    eko.sayHello("Joko")
+
+    console.info(budi);
+    console.info(eko);
+
+</script>
+
+</body>
+</html>

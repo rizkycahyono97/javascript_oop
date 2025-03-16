@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<script>
+
+    class MathUtil {
+
+        static sum(...numbers) {
+
+            // Error
+            if (numbers.length === 0) {
+                throw new Error("Total Number parameter harus lebih dari 0");
+            }
+
+            let total = 0;
+            for (const number of numbers) {
+                total += number;
+            }
+
+            return total;
+        }
+    }
+
+    // coba error 
+    console.info(MathUtil.sum())
+
+    // jika atas error maka tidak akan lanjut
+    console.info("Rixky")
+
+    // seperti static field, tidak usah menggunakan instance object
+    const result = MathUtil.sum(1, 1, 1, 1, 1);
+    console.info(result);
+
+    
+</script>
+
+</body>
+</html>
