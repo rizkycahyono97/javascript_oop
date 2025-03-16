@@ -55,81 +55,81 @@ Repositori ini berisi materi pembelajaran OOP (Object-Oriented Programming) di J
 
 ## Penjelasan Materi
 
-1. 1.  **Constructor Function, Property, dan Method**  
-1.     Dasar pembuatan objek dengan constructor function, properti, dan metode.
-1.     
-1. 2.  **Parameter**  
-1.     Cara meneruskan parameter ke dalam constructor function.
-1.     
-1. 3.  **Constructor Inheritance**  
-1.     Pewarisan dalam constructor function.
-1.     
-1. 4.  **Prototype**  
-1.     Konsep prototype dalam JavaScript.
-1.     
-1. 5.  **Prototype Inheritance**  
-1.     Pewarisan menggunakan prototype.
-1.     
-1. 6.  **Class**  
-1.     Penggunaan class dalam JavaScript.
-1.     
-1. 7.  **Constructor di Class**  
-1.     Cara mendefinisikan constructor di dalam class.
-1.     
-1. 8.  **Property Class**  
-1.     Cara mendefinisikan properti dalam class.
-1.     
-1. 9.  **Method di Class**  
-1.     Cara mendefinisikan metode dalam class.
-1.     
-1. 10.  **Class Inheritance**  
-1.     Pewarisan dalam class.
-1.     
-1. 11.  **Super Constructor**  
-1.     Menggunakan `super` dalam constructor.
-1.     
-1. 12.  **Class Super Method**  
-1.     Menggunakan `super` untuk memanggil metode parent class.
-1.     
-1. 13.  **Getter dan Setter**  
-1.     Menggunakan getter dan setter dalam class.
-1.     
-1. 14.  **Class Public Field**  
-1.     Mendefinisikan properti publik dalam class.
-1.     
-1. 15.  **Private Class Field**  
-1.     Mendefinisikan properti privat dalam class.
-1.     
-1. 16.  **Class Private Method**  
-1.     Mendefinisikan metode privat dalam class.
-1.     
-1. 17.  **Operator** `**instanceof**`  
-1.     Mengecek tipe objek dengan `instanceof`.
-1.     
-1. 18.  **Static Field**  
-1.     Menggunakan properti statis dalam class.
-1.     
-1. 19.  **Static Method**  
-1.     Menggunakan metode statis dalam class.
-1.     
-1. 20.  **Error**  
-1.     Dasar penggunaan error dalam JavaScript.
-1.     
-1. 21.  **Error Handling**  
-1.     Cara menangani error dengan `try...catch`.
-1.     
-1. 22.  **Error Class**  
-1.     Membuat class khusus untuk menangani error.
-1.     
+ 1.  **Constructor Function, Property, dan Method**  
+     Dasar pembuatan objek dengan constructor function, properti, dan metode.
+     
+ 2.  **Parameter**  
+     Cara meneruskan parameter ke dalam constructor function.
+     
+ 3.  **Constructor Inheritance**  
+     Pewarisan dalam constructor function.
+     
+ 4.  **Prototype**  
+     Konsep prototype dalam JavaScript.
+     
+ 5.  **Prototype Inheritance**  
+     Pewarisan menggunakan prototype.
+     
+ 6.  **Class**  
+     Penggunaan class dalam JavaScript.
+     
+ 7.  **Constructor di Class**  
+     Cara mendefinisikan constructor di dalam class.
+     
+ 8.  **Property Class**  
+     Cara mendefinisikan properti dalam class.
+     
+ 9.  **Method di Class**  
+     Cara mendefinisikan metode dalam class.
+     
+ 10.  **Class Inheritance**  
+     Pewarisan dalam class.
+     
+ 11.  **Super Constructor**  
+     Menggunakan `super` dalam constructor.
+     
+ 12.  **Class Super Method**  
+     Menggunakan `super` untuk memanggil metode parent class.
+     
+ 13.  **Getter dan Setter**  
+     Menggunakan getter dan setter dalam class.
+     
+ 14.  **Class Public Field**  
+     Mendefinisikan properti publik dalam class.
+     
+ 15.  **Private Class Field**  
+     Mendefinisikan properti privat dalam class.
+     
+ 16.  **Class Private Method**  
+     Mendefinisikan metode privat dalam class.
+     
+ 17.  **Operator** `**instanceof**`  
+     Mengecek tipe objek dengan `instanceof`.
+     
+ 18.  **Static Field**  
+     Menggunakan properti statis dalam class.
+     
+ 19.  **Static Method**  
+     Menggunakan metode statis dalam class.
+     
+ 20.  **Error**  
+     Dasar penggunaan error dalam JavaScript.
+     
+ 21.  **Error Handling**  
+     Cara menangani error dengan `try...catch`.
+     
+ 22.  **Error Class**  
+     Membuat class khusus untuk menangani error.
+     
 
 ## Cara Menggunakan
 
-1. 1.  Buka file HTML yang sesuai untuk melihat contoh implementasi.
-1.     
-1. 2.  Jalankan kode di browser atau gunakan developer console (`F12` > Console).
-1.     
-1. 3.  Edit dan modifikasi kode untuk memahami konsep lebih dalam.
-1.     
+ 1.  Buka file HTML yang sesuai untuk melihat contoh implementasi.
+     
+ 2.  Jalankan kode di browser atau gunakan developer console (`F12` > Console).
+     
+ 3.  Edit dan modifikasi kode untuk memahami konsep lebih dalam.
+     
 
 * * *
 
